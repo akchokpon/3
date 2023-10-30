@@ -184,3 +184,162 @@ section {
 .menu a:hover {
 	background: #dbdfd0;
 }
+
+/*main*/
+.main .sec_tit {
+	max-width: 660px;
+	margin: 0 auto 32px;
+
+}
+
+.main_p {
+	max-width: 537px;
+	margin: 0 auto 40px;
+	color: #2C2F24;
+	text-align: center;
+	font-style: 20px;
+	line-height: 32px;
+}
+
+.btn_boxs {
+	display: flex;
+	justify-content: center;
+}
+
+.btn_boxs .btn {
+	margin: 0 8px;
+}
+
+.main {
+	background: url(/img/icons/main.jpg) center no-repeat;
+}
+
+.btn__red {
+	background: #AD343E;
+	color: #fff;
+	border-color: #AD343E;
+
+}
+
+.btn__red:hover {
+	border-color: #2C2F24;
+}
+
+/*browse*/
+.browse_card {
+	border-radius: 12px;
+	border: 2px solid #DBDFD0;
+	background: #fff;
+	width: calc((100% - 72px) / 4);
+	padding: 40px 34px 32px;
+}
+
+.browse_ic {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	display: block;
+	background: #f3f3f0 url(/img/icons/tea.svg) no-repeat;
+	background position;
+	margin: 0 auto 30px;
+}
+
+.browse_tit {
+	color: var(--neutral-07, #2C2F24);
+	text-align: center;
+
+	/* Headline/H3 */
+	font-family: DM Sans;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 30px;
+	/* 125% */
+	letter-spacing: -0.72px;
+}
+
+.browse_txt {
+	color: var(--neutral-06, #414536);
+	text-align: center;
+
+	/* Body/16px/Regular */
+	font-family: DM Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	/* 150% */
+}
+
+.browse_link {
+	color: #AD343E;
+	text-align: center;
+
+	/* Body/16px/Bold */
+	font-family: DM Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px;
+	/* 150% */
+	border-radius: 12px;
+}
+
+.foto {
+	width: 758px;
+	height: 800px;
+}
+
+.tit2 {
+	color: var(--neutral-07, #2C2F24);
+
+	/* Headline/H2 */
+	font-family: Playfair Display;
+	font-size: 55px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 60.5px;
+	/* 110% */
+	padding: 20px 0 24px 90px;
+}
+
+.containe1 {
+	display: flex;
+	padding: 0 0 0 90px;
+}
+
+.p1 {
+	color: var(--neutral-07, #2C2F24);
+
+	/* Body/18px/Medium */
+	font-family: DM Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px;
+	/* 155.556% */
+	padding: 24px 0 24px 90px
+}
+
+.p2 {
+	color: var(--neutral-07, #2C2F24);
+
+	/* Body/18px/Medium */
+	font-family: DM Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px;
+	/* 155.556% */
+	padding: 24px 0 24px 90px;
+}
+
+.btn_box1 {
+	display: flex;
+	padding: 20px 32px;
+	justify-content: center;
+	align-items: right;
+	gap: 10px;
+	border-radius: 118px;
+	
+}
